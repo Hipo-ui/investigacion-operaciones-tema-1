@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #473122;
+}
+
+a:hover {
+  color: #865e43;
+}
+
+.bg-color {
+  background-color: #473122;
+}
+
+.width-box {
+  max-width: 20em;
+}
+
+.height-cover {
+  height: 25em;
+}
+
+.height-box {
+  height: 15em;
+}
+
+.bg-cover {
+  background-image: url(./img/web3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;    
+}
+
+.bg-text{
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.bg-waves {
+  background-image: url(./img/path.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-card {
+  background-image: url(./img/node.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-silent {
+  color: #c6d0d8
+}
+
+
+.border-color {
+    border-color: #473122;
+}
+
+.bg-head{
+    background-color: rgb(71 49 34 / 83%);;
+    color: white;
+}
+
+.table-active {
+    --bs-table-accent-bg: rgb(71 49 34 / 83%);;
+    color: white;
+}
+
+.bg-warning {
+    background-color: #fff3cd!important;
+}
+
+.bg-success {
+    background-color: #d1e7dd!important;
+}
+
+.bg-danger {
+    background-color: #f8d7da!important;
+}
+
+.table-success, .table-warning, .table-danger {   
+    border-color: #473122;
+}
